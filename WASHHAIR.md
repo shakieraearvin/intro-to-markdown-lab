@@ -5,73 +5,82 @@
 ```javascript
 import { shampoo, conditioner, towel, leaveInConditioner } from "hairCareKit";
 ```
-Before we start, make sure all your essential hair care products are available, just like importing modules in JavaScript.
+*Before we start, make sure all your essential hair care products are available, just like importing modules in JavaScript.*
 
- Step-by-Step Hair Wash Algorithm
+ ## 🔧Step-by-Step Hair Wash Algorithm
 
-  1 Initialize Wash Day Routine
+  ### 1. Initialize Wash Day Routine
   
+  ```javascript 
   function preWash() {
     console.log("🛠️ Detangling hair and applying pre-poo treatment...");
 }
+```
 
-Use a wide-tooth comb to remove knots and shed hair.
-Apply a pre-poo treatment to prevent moisture loss (optional).
++ Use a wide-tooth comb to remove knots and shed hair.
++ Apply a pre-poo treatment to prevent moisture loss `(optional)`.
 
-2 Hydrate Hair – wetHair() Function
+### 2. Hydrate Hair – wetHair() Function
 
 function wetHair() {
     console.log("💦 Saturating hair with lukewarm water...");
 }
 
 
-Completely soak your hair with lukewarm water to prepare for cleansing.
-This step opens the hair cuticle for effective shampooing.
++ Completely soak your hair with lukewarm water to prepare for cleansing.
+> ***This step opens the hair cuticle for effective shampooing.***
 
 
- 3 Apply Shampoo – cleanseScalp()
+ ### 3. Apply Shampoo – cleanseScalp()
 
+```javascript
 function cleanseScalp() {
     console.log("🧴 Applying sulfate-free shampoo...");
 }
+```
 
-Apply shampoo to your scalp, not your strands.
-Massage gently using fingertips (not nails) to remove buildup.
-Rinse thoroughly and repeat if necessary (especially for heavy product buildup).
++ Apply shampoo to your scalp, not your strands.
++ Massage gently using fingertips (not nails) to remove buildup.
++ Rinse thoroughly and repeat if necessary (especially for heavy product buildup).
 
-4 Rinse & Condition – hydrateStrands()
+### 4. Rinse & Condition – hydrateStrands()
 
+```javascript
 function hydrateStrands() {
     console.log("🫧 Applying conditioner to mid-lengths and ends...");
 }
+```
++ Apply conditioner to your mid-lengths and ends (not the scalp!).
++ Let it sit for 2-5 minutes for maximum hydration.
++ Rinse with cool water to close the cuticle and lock in moisture.
 
-Apply conditioner to your mid-lengths and ends (not the scalp!).
-Let it sit for 2-5 minutes for maximum hydration.
-Rinse with cool water to close the cuticle and lock in moisture.
+### 5. Optional Deep Conditioning – applyHairMask()
 
-5 Optional Deep Conditioning – applyHairMask()
-
+```javascript
 function applyHairMask() {
     console.log("🔬 Running deep conditioning process...");
 }
+```
 
-If extra hydration is needed, use a deep conditioner or hair mask.
-Let it process for 15-30 minutes before rinsing.
++ If extra hydration is needed, use a deep conditioner or hair mask.
++ Let it process for 15-30 minutes before rinsing.
 
-6 Dry & Style – finalizeRoutine()
-
+### 6. Dry & Style – finalizeRoutine()
+```javascript
 function finalizeRoutine() {
     console.log("📜 Squeezing excess water, applying leave-in conditioner...");
 }
+```
 
-Gently squeeze out excess water using a microfiber towel or T-shirt.
-Apply leave-in conditioner or serum to maintain moisture.
-Let hair air-dry or use a low heat setting if blow-drying.
++ Gently squeeze out excess water using a microfiber towel or T-shirt.
++ Apply leave-in conditioner or serum to maintain moisture.
++ Let hair air-dry or use a low heat setting if blow-drying.
 
 
 
-Execute the Full Hair Wash Routine
+### 🚀 Execute the Full Hair Wash Routine
 
+```javascript
 function washHairRoutine() {
     preWash();
     wetHair();
@@ -83,30 +92,30 @@ function washHairRoutine() {
 }
 
 washHairRoutine();
-
-🛠️ Detangling hair and applying pre-poo treatment...
-💦 Saturating hair with lukewarm water...
-🧴 Applying sulfate-free shampoo...
-🫧 Applying conditioner to mid-lengths and ends...
-🔬 Running deep conditioning process...
-📜 Squeezing excess water, applying leave-in conditioner...
-🎉 Hair wash complete! Scalp refreshed, hydration locked.
-
-Pro Tips (Console Warnings)
-
-console.warn("⚠️ Avoid hot water! It dries out hair and causes frizz.");
-console.warn("⚠️ Don't apply conditioner to the scalp—it can cause buildup.");
-console.warn("⚠️ Overwashing can lead to dryness. Stick to 1-2x per week.");
-
-Debugging Common Hair Issues
-
-🛑 Issue	🔍 Possible Cause	💡 Solution
-Frizzy Hair	Overwashing, hot water	Use a hydrating conditioner and cool rinse
-Dry Scalp	Harsh shampoo, no moisture	Try sulfate-free shampoo and deep condition
-Product Buildup	Skipping clarifying shampoo	Use a clarifying shampoo once a month
+```
 
 
-Final Thoughts
+### 🔥Pro Tips (Console Warnings)
 
-Congratulations! You’ve successfully executed a proper hair wash routine using JavaScript logic. Keep your hair clean, healthy, and bug-free! 🚀💇🏾‍♀️✨
+```javascript
+console.warn("Avoid hot water! It dries out hair and causes frizz.");
+
+console.warn("Don't apply conditioner to the scalp—it can cause buildup.");
+
+console.warn("Overwashing can lead to dryness. Stick to 1-2x per week.");
+```
+
+### 🛠️ Debugging Common Hair Issues
+
+| 🛑 Issue | 🔍 Possible Cause | 💡 Solution |
+|----------|-----------------|------------|
+| Frizzy Hair | Overwashing, hot water | Use a hydrating conditioner and cool rinse |
+| Dry Scalp | Harsh shampoo, no moisture | Try sulfate-free shampoo and deep condition |
+| Product Buildup | Skipping clarifying shampoo | Use a clarifying shampoo once a month |
+
+
+
+***Congratulations! You’ve successfully executed a proper hair wash routine using JavaScript logic. Keep your hair clean, healthy, and bug-free! 🚀💇🏾‍♀️✨***
+
+*If you need of more help consult with hair stylist here ➡* [HAIR HELP](https://www.kieralynesehair.com/)
 
